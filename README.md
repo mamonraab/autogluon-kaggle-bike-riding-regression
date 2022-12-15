@@ -28,9 +28,11 @@ more feature engineering , solve it  as timeseris problem
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|learning_rate|gbm_options num_leaves	|gbm_options num_boost_round|1.31387
+|
+|add_features|learning_rate|gbm_options num_leaves	|gbm_options num_boost_round|0.47692
+|
+|hpo + new day part features |learning_rate|gbm_options num_leaves	|gbm_options num_boost_round|0.47440|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
